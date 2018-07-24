@@ -1,0 +1,2 @@
+# apollohotel
+Hotel WordPress Theme
