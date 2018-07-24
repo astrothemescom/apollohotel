@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+MAIN
+--------------------------------------------------------------*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	font-weight: lighter;
+	color:#666;
+	background-color:#f6f6f6;
+}
+a {
+	color:#b3925a;
+	text-decoration:none;
+}
+a:active, a:hover { color:#9b8258; text-decoration:none; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:lighter; color:#9b8258; }
+
+figure { margin:0; max-width:100%; height:auto; }
+
+input.form-control, select.form-control, textarea.form-control,
+.input-group-text {
+	border-radius:0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;	
+}
+.form-check { line-height:initial; }
+.form-check-label-privacy { font-size:0.9em; }
+
+.btn { border-radius:0; }
+.btn-primary { background-color:#b79602; border-color:#b79602; }
+.btn-primary:hover { background-color:#977d02; border-color:#977d02; }
+
+section { padding:3em 0; }
+article { word-wrap:break-word; }

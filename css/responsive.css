@@ -1,0 +1,67 @@
+@media screen and (max-width: 979px){
+
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		padding-left:0;
+		padding-right:0;
+	}
+	header .navbar-expand-lg .navbar-nav > li {
+		line-height:1rem;
+	}
+	
+}
+
+@media screen and (max-width: 767px){
+
+	.carousel-section .carousel-caption h2 {
+		font-size:2em;
+		text-transform:uppercase;
+	}
+
+	.home-section .featured-image {
+		width:100%;
+	}
+	.home-section .featured-image img {
+		float:none;
+		padding:0.5em;
+	}
+	
+}
+
+@media screen and (max-width: 599px){
+
+	.carousel-section .carousel-caption h2 {
+		font-size:2em;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+
+	header .navbar-brand img {
+		max-height:60px;
+	}
+	
+	.news-section a.btn-info {
+		display: inline-block; /* so height and width actually take affect */
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap; /* important to show ellipsis, or words will just be broken off */
+		font-size:0.9em;
+	}
+
+	.carousel-section .carousel-control-next, .carousel-section .carousel-control-prev,
+	section.carousel-section .carousel-caption,
+	section.carousel-section .carousel-indicators {
+		display:none;
+	}
+	
+	div.gallery figure { width:100% !important; }
+
+	.fullwidth .featured-image {
+		padding:1em 0;
+		width:100%;
+		float:inherit;
+	}
+	
+}
